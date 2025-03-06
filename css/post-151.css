@@ -1,0 +1,13 @@
+.elementor-151 .elementor-element.elementor-element-7412363 .content .title{color:#FFFFFF;}.elementor-151 .elementor-element.elementor-element-7412363 .service-items .service-item .icon{color:var( --e-global-color-efacc69 );background:var( --e-global-color-efacc69 );}.elementor-151 .elementor-element.elementor-element-7412363 .service-items .service-item .name{color:var( --e-global-color-efacc69 );}/* Start custom CSS for ryancv-about-me, class: .elementor-element-b939dc4 */.rt-elementor-container .single-team-area img {
+    border-radius: 10px;
+    max-width: 100%;
+    -webkit-transition: opacity .6s,-webkit-transform .6s;
+    transition: opacity .6s,-webkit-transform .6s;
+    -o-transition: opacity .6s,transform .6s;
+    transition: opacity .6s,transform .6s;
+    transition: opacity .6s,transform .6s,-webkit-transform .6s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}/* End custom CSS */
