@@ -1822,27 +1822,9 @@
     </div>
 </div>
 
-<script>
-function sendToWhatsApp() {
-    var name = document.getElementById("userName").value;
-    var email = document.getElementById("userEmail").value;
-    var message = document.getElementById("userMessage").value;
 
-    if (name === ""  email === ""  message === "") {
-        alert("Please fill all fields!");
-        return;
-    }
-
-    var phoneNumber = "923066415656"; // Aapka WhatsApp number
-    var whatsappMessage = New Contact Form Submission:%0A%0A👤 Name: ${name}%0A📧 Email: ${email}%0A✉️ Message: ${message};
-
-    var whatsappURL = https://wa.me/${phoneNumber}?text=${whatsappMessage};
-    window.open(whatsappURL, "_blank");
-}
-</script>
             <!-- #post-53 -->
-        </div>
-    </div>
+
 
 
     <div class="card-inner" id="card-products">
@@ -2022,7 +2004,24 @@ function sendToWhatsApp() {
     </script>
     <script type="text/javascript" src="js/tlp-el-team.min.js" id="tlp-el-team-js-js"></script>
 
+<script>
+function sendToWhatsApp() {
+    var name = document.getElementById("userName").value;
+    var email = document.getElementById("userEmail").value;
+    var message = document.getElementById("userMessage").value;
 
+    if (name === ""  email === ""  message === "") {
+        alert("Please fill all fields!");
+        return;
+    }
+
+    var phoneNumber = "923066415656"; // Aapka WhatsApp number
+    var whatsappMessage = New Contact Form Submission:%0A%0A👤 Name: ${name}%0A📧 Email: ${email}%0A✉️ Message: ${message};
+
+    var whatsappURL = https://wa.me/${phoneNumber}?text=${whatsappMessage};
+    window.open(whatsappURL, "_blank");
+}
+</script>
     <!-- cursor -->
     <div class="cursor"></div>
 
